@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự đoán tỷ lệ chấp thuận</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dự đoán tỷ lệ chấp thuận hồ sơ cho vay</h1>
+    <input type="text" id="feature_1" placeholder="Tiền và các khoản tương đương tiền">
+    <input type="text" id="feature_2" placeholder="Đầu tư tài chính">
+    <input type="text" id="feature_3" placeholder="Các khoản phải thu">
+    <input type="text" id="feature_4" placeholder="Hàng tồn kho">
+    <input type="text" id="feature_5" placeholder="Tài sản cố định">
+    <input type="text" id="feature_6" placeholder="Bất động sản đầu tư">
+    <input type="text" id="feature_7" placeholder="XDCB dở dang">
+    <input type="text" id="feature_8" placeholder="Tài sản khác">
+    <input type="text" id="feature_9" placeholder="Nợ phải trả">
+    <input type="text" id="feature_10" placeholder="Vốn chủ sở hữu">
+    <input type="text" id="feature_11" placeholder="Doanh thu kế hoạch năm kế hoạch">
+    <input type="text" id="feature_12" placeholder="Lợi nhuận kế hoạch năm kế hoạch">
+    <input type="text" id="feature_13" placeholder="Tổng nhu cầu vốn">
+    <input type="text" id="feature_14" placeholder="Nguồn vốn cần vay">
+    <input type="text" id="feature_15" placeholder="Thời gian sử dụng hạn mức (năm)">
+    <input type="text" id="feature_16" placeholder="Mục đích sử dụng vốn">
+    <button onclick="greetUser()">Dự đoán</button>
+    <p id="greetingMessage"></p>
+
+    <canvas id="featureImportanceChart"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
